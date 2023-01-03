@@ -1,0 +1,33 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+}
+.container {
+  width: 500px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid;
+  border-radius: 10px;
+  position: relative;
+}
+.kolo-obrazek {
+  max-width: 500px;
+}
+
+.color1 {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(33, 95, 217);
+  border-radius: 50%;
+}
+.color2 {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(133, 49, 153);
+  border-radius: 50%;
+}
+.color3 {
+  width: 40px;
+  height: 40px;
+  background-color: rgb(123, 123, 123);
+  border-radius: 50%;
+}
