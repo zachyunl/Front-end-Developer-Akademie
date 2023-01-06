@@ -1,0 +1,43 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+  .container {
+    width: 50%;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 533px) {
+  .container {
+    width: 80%;
+  }
+}
+
+@media (min-width: 534px) {
+  .container {
+    width: 60%;
+  }
+}
+.top-image-container {
+  position: relative;
+}
+.text-over-image {
+  position: absolute;
+  bottom: 250px;
+  right: 350px;
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  display: block;
+  margin: auto;
+}
+
+.text-over-image span {
+  display: block;
+}
