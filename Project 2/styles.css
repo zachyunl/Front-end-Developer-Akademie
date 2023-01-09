@@ -1,9 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
 body {
+  display: flex;
   font-family: "Roboto", sans-serif;
+  justify-content: center;
 }
 
 .container {
   display: flex;
+  justify-content: center;
+  display: block;
 }
 
 /* Mobile styles */
@@ -29,15 +42,26 @@ body {
 }
 .text-over-image {
   position: absolute;
-  bottom: 250px;
-  right: 350px;
+  bottom: 18rem;
+  right: 25rem;
   color: white;
   font-size: 50px;
   font-weight: bold;
   display: block;
-  margin: auto;
+  margin: 4px;
 }
 
 .text-over-image span {
   display: block;
+}
+h1 {
+  font-size: 20px;
+  font-weight: 700;
+}
+.about-text {
+  font-weight: 100;
+}
+.what-we-do {
+  background-color: #33292a;
+  color: white;
 }
