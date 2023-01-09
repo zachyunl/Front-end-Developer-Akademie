@@ -8,9 +8,9 @@
 }
 
 body {
-  display: flex;
+  /*display: flex;*/
   font-family: "Roboto", sans-serif;
-  justify-content: center;
+  /*justify-content: center;*/
 }
 
 .container {
@@ -25,7 +25,7 @@ body {
     width: 50%;
   }
 }
-
+/*
 @media (min-width: 375px) and (max-width: 533px) {
   .container {
     width: 80%;
@@ -36,14 +36,23 @@ body {
   .container {
     width: 60%;
   }
-}
-.top-image-container {
+}*/
+.top-image-container,
+.about-us-container,
+.what-we-do-container {
   position: relative;
+  margin: auto;
+  width: 60%;
 }
+.image-start,
+.image-second {
+  width: 100%;
+}
+
 .text-over-image {
   position: absolute;
-  bottom: 18rem;
-  right: 25rem;
+  bottom: 15rem;
+  right: 20rem;
   color: white;
   font-size: 50px;
   font-weight: bold;
@@ -54,14 +63,28 @@ body {
 .text-over-image span {
   display: block;
 }
+.first-text {
+  position: absolute;
+  display: flex;
+  margin: auto;
+  width: 60%;
+}
+
 h1 {
   font-size: 20px;
   font-weight: 700;
 }
 .about-text {
+  position: relative;
   font-weight: 100;
+  display: flex;
 }
-.what-we-do {
+.what-we-do-container {
+  display: flex;
   background-color: #33292a;
   color: white;
+  flex-direction: column;
+}
+.what-we-do-header {
+  align-items: center;
 }
