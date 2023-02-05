@@ -104,7 +104,7 @@ span {
     object-fit: cover;
   }
 }
-.what-we-do-container {
+.what-we-do-main {
   background-color: #33292a;
   color: #f2f2f2;
   padding: 70px 35px;
@@ -129,11 +129,16 @@ span {
   padding-top: 30px;
 }
 
+.what-we-do-icons h2 {
+  font-size: 2em;
+}
 @media (min-width: 768px) {
-  .what-we-do {
-    margin: 0 auto;
+  .what-we-do-container {
+    display: flex;
     max-width: 992px;
+    margin: 0 auto;
     justify-content: center;
+    flex-direction: column;
   }
 
   .what-we-do-icons {
@@ -200,12 +205,18 @@ span {
   }
 }
 
+.where-do-you-main {
+  background-color: #644b4f;
+  color: #f2f2f2;
+  padding: 70px 35px;
+  text-align: center;
+  line-height: 1.5;
+}
 .where-do-you-container {
   display: flex;
   flex-direction: column;
   background-color: #644b4f;
   color: #f2f2f2;
-  padding: 4em 15em;
 }
 .where-do-you-header {
   display: block;
@@ -235,8 +246,8 @@ span {
   .where-do-you-container {
     display: flex;
     flex-direction: row;
-    max-width: 992px;
     margin: 0 auto;
+    max-width: 992px;
     justify-content: center;
   }
 }
