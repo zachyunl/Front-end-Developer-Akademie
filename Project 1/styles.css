@@ -253,7 +253,7 @@ span {
 }
 
 .reviews {
-  margin-top: 3em;
+  margin: 3em 0;
 }
 .reviews-header {
   width: 30%;
@@ -296,3 +296,19 @@ span {
     width: 50%;
   }
 }
+
+.photogallery {
+  display: flex;
+  flex-wrap: wrap;
+}
+.photogallery img {
+  width: 100%;
+  height: 350px;
+  object-fit: cover;
+  display: block;
+  flex: 1 0 calc(50% - 10px);
+}
+@media (max-width: 768px) {
+  .photogallery img {
+    flex: 1 0 100%;
+  }
