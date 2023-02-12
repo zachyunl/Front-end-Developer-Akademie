@@ -324,4 +324,5 @@ span {
 .contact:hover {
   color: #e9877b;
   text-decoration: underline;
+  cursor: pointer;
 }
